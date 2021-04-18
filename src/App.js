@@ -35,34 +35,34 @@ function App() {
           <PrivateRoute path="/dashboard/service">
                <Dashboard></Dashboard>
           </PrivateRoute>
-          <Route path="/addService">
+          <PrivateRoute path="/addService">
               <Dashboard></Dashboard>
               <AddService></AddService>
-          </Route>
-          <Route path="/makeAdmin">
+          </PrivateRoute>
+          <PrivateRoute path="/makeAdmin">
             <Dashboard></Dashboard>
             <MakeAdmin></MakeAdmin>
-          </Route>
-          <Route path="/orderList">
+          </PrivateRoute>
+          <PrivateRoute path="/orderList">
             <Dashboard></Dashboard>
             <OrderList></OrderList>
-          </Route>
+          </PrivateRoute>
           <PrivateRoute path="/userDashboard/service">
             <UserDashboard></UserDashboard>
           </PrivateRoute>
-          <Route path="/book">
+          <PrivateRoute path="/book">
             <UserDashboard></UserDashboard>
             <Book></Book>
-          </Route>
-          <Route path="/review">
+          </PrivateRoute>
+          <PrivateRoute path="/review">
               <UserDashboard></UserDashboard>
               <Review></Review>
-            </Route>
-            <Route path="/bookList">
+            </PrivateRoute>
+            <PrivateRoute path="/bookList">
               <UserDashboard></UserDashboard>
               <BookList></BookList>
-            </Route>
-          <Route path="/login">
+            </PrivateRoute>
+          <Route Route path="/login">
             <Login></Login>
           </Route>
            <Route path="/home">
