@@ -1,0 +1,16 @@
+.service-card{
+    width: 370px;
+    min-height: 200px;
+    background-color: rgb(69, 228, 193);
+    margin: 5px;
+    padding: 10px;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+.service-card:hover{
+    background-color: rgba(0, 0, 0, 0.562);
+    color: white;
+}

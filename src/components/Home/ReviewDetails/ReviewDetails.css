@@ -1,0 +1,14 @@
+.review-card{
+    width: 370px;
+    min-height: 200px;
+    background-color: rgb(167, 58, 58);
+    margin: 5px;
+    padding: 10px;
+    color: white;
+    text-align: left;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
